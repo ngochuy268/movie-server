@@ -10,7 +10,7 @@ const newsRoutes = require('./routes/newsRoutes');
 const emailRoutes = require('./routes/emailRoutes');
 
 app.use(cors({ 
-    origin: ['http://localhost:3000', 'https://movie-client.vercel.app'], 
+    origin: ['http://localhost:3000', 'https://movie-client-cyan.vercel.app'], 
     methods: 'GET, POST', 
     allowedHeaders: 'Content-Type, Authorization',  }));
 
