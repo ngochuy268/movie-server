@@ -1,8 +1,6 @@
 const express = require('express');
-const mysql = require('mysql');
 const cors = require('cors');
 const app = express();
-// const nodemailer = require('nodemailer'); 
 const bodyParser = require('body-parser'); 
 
 const filmRoutes = require('./routes/filmRoutes');

@@ -11,6 +11,11 @@ const db = mysql.createPool({
     ssl: {
         rejectUnauthorized: false
     }
+
+    // host: 'localhost',
+    // user: 'root',
+    // password: '',
+    // database: 'movie',
 });
 
 db.getConnection((err) => {
